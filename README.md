@@ -1,41 +1,35 @@
 # Binance Funding Rate Bot
 
-Bu proje, Binance Vadeli İşlemlerindeki fonlama oranlarını takip eden ve belirli değişiklikler olduğunda **Telegram üzerinden bildirim gönderen** bir bottur.
+This project is a bot that monitors funding rates in **Binance Futures** and sends **Telegram notifications** when significant changes occur.
 
-## 🚀 Tanıtım
+## 🚀 Introduction
 
-Binance Funding Rate Bot, belirlenen eşik değeri (**varsayılan: %0.05**) aşan **fonlama oranı değişimlerini** tespit eder ve yatırımcılara **anlık bildirimler** gönderir.
+Binance Funding Rate Bot detects funding rate changes exceeding the set threshold (**default: 0.05%**) and sends **real-time notifications** to investors.
 
-## 📌 Kullanım
+## 📌 Usage
 
-Botun desteklediği Telegram komutları:
+Supported Telegram commands:
 
-- **/start** → Bot hakkında bilgi verir.
-- **/status** → Anlık fonlama durumu ve takip edilen coin sayısını gösterir.
-- **/threshold <değer>** → Bildirim eşik değerini değiştirir. Örn: `/threshold 0.05`
-- **/check** → Manuel olarak fonlama oranlarını kontrol eder.
-- **/restart** → Botun takibini sıfırlar.
+- **/start** → Provides information about the bot.
+- **/status** → Displays the current funding status and the number of tracked coins.
+- **/threshold <value>** → Changes the notification threshold. Example: `/threshold 0.05`
+- **/check** → Manually checks funding rates.
+- **/restart** → Resets the bot's tracking.
 
-## 🛠 Kurulum
+## 🛠 Installation
 
-### 1️⃣ Depoyu Klonlayın
+### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/kullaniciadi/binance-funding-bot.git
+git clone https://github.com/xberkayio/binance-funding-bot
 ```
 ```bash
 cd binance-funding-bot
 ```
 
-### 2️⃣ Gerekli Bağımlılıkları Yükleyin
+### 2️⃣ Configure Your Settings
 
-```bash
-pip install -r requirements.txt
-```
-
-### 3️⃣ Config Dosyanızı Düzenleyin
-
-`config.json` dosyasını oluşturup aşağıdaki gibi düzenleyin:
+Create a `config.json` file and edit it as follows:
 
 ```json
 {
@@ -45,19 +39,18 @@ pip install -r requirements.txt
 }
 ```
 
-### 4️⃣ Botu Çalıştırın
+### 3️⃣ Run the Bot
 
 ```bash
 python bot.py
 ```
 
-## 🖼 Görseller
 
-![Telegram Bot](https://via.placeholder.com/800x400?text=Telegram+Bot+Preview)
 
-## 💰 Bağış Yaparak Destek Olabilirsiniz
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/kullaniciadi)
+# With ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+  ## 💰 You can help me by Donating
+  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/xberkay-o) 
 
 ####
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=kullaniciadi&label=Profile%20views&color=0e75b6&style=flat" alt="kullaniciadi" /> </p>
-
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=xberkay-o&label=Profile%20views&color=0e75b6&style=flat" alt="xberkay-o" /> </p>
