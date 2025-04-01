@@ -42,7 +42,7 @@ Create a `config.json` file and edit it as follows:
 ### 3️⃣ Run the Bot
 
 ```bash
-python bot.py
+python main.py
 ```
 
 
