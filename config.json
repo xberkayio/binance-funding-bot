@@ -1,0 +1,6 @@
+{
+  "TELEGRAM_BOT_TOKEN": "",
+
+  "BINANCE_FUNDING_RATE_URL": "https://fapi.binance.com/fapi/v1/premiumIndex",
+  "CHANNEL_ID": ""
+}
